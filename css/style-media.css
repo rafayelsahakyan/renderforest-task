@@ -1,0 +1,126 @@
+@media screen and (max-width: 375px){
+    .div-width{width: 100%;}
+    #button{display: none;}
+    .right-group{display: none;}
+    .left-group{display: none;}
+    .opinion-text{width: 100% !important;}
+    .create img{display: none;}
+    .top-side {flex-direction: column;height: auto;}
+    .navbars{display: none}
+    .video-gallery-description p{width: 100%;}
+    .loop-side{width: 100%}
+    .tutorial-contain>h3{width: 100%}
+    .step {flex-direction: column-reverse;margin-top: 75px;}
+    .steps-contenct h3{display: none;}
+    .steps-blocks {flex-direction: column;}
+    .opinion-text-bloks{width: 100%;}
+    .opinion-contenct h3{font: normal normal bold 30px/40px "Montserrat Bold";letter-spacing: 0px;color: #363F5A;width: 100%;}
+    .community img{display: none;}
+    .blog-contain h3{width: 100%;}
+    .blog-right-decoration{display: none;}
+    .video-left-decoration{display: none;}
+    .blog-left-decoration{display: none;}
+    .video-right-decoration{display: none;}
+    .community-content{flex-direction: column;padding: 45px 20px 60px;text-align: center;}
+    .light-img {width: 146px;}
+    .steps-blocks div{width: 100%;margin-top: 65px;}
+    .tutorial-description h3 {font: normal normal bold 26px/34px "Montserrat Bold";width: 100%;}
+    .create-contain h3{width: 100%;font: normal normal bold 22px/32px "Montserrat Bold";}
+    .tutorial-description p{width: 100%;}
+    .tutorial-img-1 img:first-child{width: 100%;}
+    .tutorial-img-2 img:first-child{width: 100%;}
+    .tutorial-img-3 img:first-child{width: 100%;}
+    .big-banner-title{margin-top: 0px;width: calc(100% - 60px);margin: 30px 20px;}
+    .big-banner-btns {position: initial;flex-direction: column;width: 100%;margin-top: 30px;}
+    .opinion-img .center-group div{width: 146px;margin-right: 0px;}
+    .opinion-right-decoration{display: none;}
+    .opinion-left-decoration{display: none;}
+    .mobile-logo{display:block;}
+    .logo-side img{display: none;}
+    .pic-pulse-right{right: -13px;width: 57px;top: 35%;}
+    .hamburger-icon{display:flex}
+    .header-contain{position: relative;}
+    .big-banner-contain{padding: 0px;background: url("../img/mobile/bg-ellipse.svg");background-repeat: no-repeat;background-position: center -310px;}
+    .big-banner-title h2{font: normal normal normal 36px/42px "Montserrat Regular";text-align: center;}
+    .big-banner-title h2 span{font: normal normal 900 36px/42px "Montserrat Black";}
+    .big-banner-picture div{width: 100%;background-position: center;background-size: contain;background-repeat: no-repeat;height: 320px;background: url("../img/mobile/big-banner-pic.png");}
+    .big-banner{height: auto;}
+    .big-banner-picture div img{display: none;}
+    .white-btn{font: normal normal 500 18px/22px "Montserrat Medium";margin-bottom: 40px;}
+    .bottom-side{margin-top: 45px;padding-bottom: 20px;}
+    .users{height: 50px;}
+    .users img{width: 800px !important;}
+    .video-gallery-contain{padding: 45px 20px 60px;}
+    .video-gallery-description p{font: normal normal 500 14px/22px "Montserrat Medium";}
+    .video-gallery-description div{margin:20px}
+    .video-gallery-description h3{font: normal normal bold 20px/32px "Montserrat Bold";text-align: center;margin-bottom: 45px;}
+    .video-block .img-side img:first-child{width: 100%;}
+    .video-block{width: 100%;height: auto;}
+    .video-block h3{font: normal normal bold 14px/31px "Montserrat Bold";line-height: 15px;margin-bottom: 15px;margin-top: 15px;}
+    .tutorial-contain>h6{display: block;}
+    .tutorial-contain>h3{display: none;}
+    .tutorial-contain{padding: 60px 20px 75px;}
+    .tutorial-img-1{height: auto;margin-bottom: 5px;}
+    .pic-pulse-center {bottom: 0px;width: 160px;}
+    .step-1{margin-top: 60px;}
+    .tutorial-description h5{font: normal normal bold 16px/46px "Montserrat Bold";line-height: 35px;}
+    .tutorial-img-2{height: auto;}
+    .pic-pulse-left { width: 52px;left: 12px}
+    .pic-pulse-center-2 {width: 130px;}
+    .tutorial-img-3{height: auto;}
+    .pic-pulse-center-3{ width: 130px; bottom: 4px;}
+    .create-contain {padding: 45px 20px 60px;}
+    .create-contain a{margin: 45px 0px 0px}
+    .steps-contenct{padding: 45px 20px 60px;}
+    .atomic-energy {display: none;}
+    .math{display: none;}
+    .venn-diagram{display: none;}
+    .function{display: none;}
+    .steps-contenct h6{display: block;}
+    .steps-blocks {margin-top: 10px;}
+    .steps-blocks div h5{font: normal normal 600 16px/22px "Montserrat SemiBold";}
+    .steps-blocks div p{font: normal normal 500 14.5px/22px "Montserrat Medium";}
+    .year-img{width: 117px;height: auto;}
+    .opinion-contenct{padding: 60px 20px 45px;}
+    .opinion-img{margin-bottom: 60px;}
+    .opinion-contenct>img{margin-top: 10px;}
+    .opinion-text p{font: normal normal normal 14px/22px "Montserrat Medium";width: 100%;}
+    .opinion-text h3{font: normal normal bold 16px/38px "Montserrat Bold";}
+    .opinion-text h6{margin-top: 5px;}
+    .community-content>div{margin-right: 0px;}
+    .community-content>div>h3{font: normal normal bold 30px/40px "Montserrat Bold";}
+    .community-content>div>p{font: normal normal 500 14px/22px "Montserrat Medium";}
+    .community-content>a{margin:45px 0px 0px}
+    .blog-contain{padding: 45px 20px 75px;}
+    .blog-contain>h6{display: block;}
+    .blog-contain h3{display: none;}
+    .blog-contain a div img{width: 100%;}
+    .blog-contain a div {width: 100%;}
+    .blog-contain a div p{display: none;}
+    .mobile-tutorial-title{display: block !important;}
+
+    @keyframes pulse-animation {
+        0% {
+          box-shadow: 0 0 0 0px rgb(166, 194, 255);
+        }
+        100% {
+          box-shadow: 0 0 0 15px rgba(166, 194, 255, 0);
+        }
+      }
+    .video-gallery-content{
+        padding: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "."
+            "."
+            "."
+            "."
+            "."
+            "."
+            "."
+            "."
+            ".";
+        }
+ }
+ 

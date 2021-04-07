@@ -1,0 +1,740 @@
+/*------------------------ SCROLL TO TOP BUTTON -------------------------*/
+#button {
+    display: flex;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 35px;
+    right: 132px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #387DFF40;
+    cursor: pointer;
+}
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+#button img{
+    width: 21px;
+}
+
+/*-------------------------------- HEADER --------------------------------*/
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.logo-side img{
+    height: 40px;
+}
+.logo-side{
+    height: 40px;
+}
+.navbars{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 45px;
+}
+.navbars ul{
+    display: flex;
+}
+.navbars ul li{
+    margin: 0px 15px;
+}
+.navbars ul li a img{
+    margin: 2px 3px;
+}
+.header-contain{
+    display: flex;
+    padding: 15px 30px;
+}
+.sign-in-btn{
+    color:#387DFF
+}
+.mobile-logo{
+    display: none;
+    background: url("../img/header/logo.png");
+    width: 34px;
+}
+.hamburger-icon{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    right: 30px;
+    top: 28px;
+}
+.hamburger-icon div{
+    background: #252E48 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 11px;
+}
+
+/*------------------------------ BIG BANNER ------------------------------*/
+.big-banner{
+    width: 100%;
+    height: 700px;
+    background: #7D74E9;
+}
+.big-banner-contain{
+    height: 100%;
+    background: url(../img/big-banner/banner-shadow.svg);
+    background-repeat: no-repeat;
+    padding: 52px 116px 0px 150px;
+}
+.top-side{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 515px;
+}
+.bottom-side{
+    margin-top: 36px;
+}
+.bottom-side p{
+    font: normal normal 600 16px/19px "Montserrat SemiBold";
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 68px;
+}
+.users{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+.users img{
+    margin-right: 30px;
+}
+.users img:focus{
+    outline: none;
+}
+.big-banner-title{
+    margin-top: 68px;
+    width: 492px;
+}
+.big-banner-picture{
+    display: flex;
+    justify-content: center;
+}
+.loop-side{
+    position: relative;
+    width: 850px;
+    margin: 0 auto;
+}
+.left-gradient{
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.right-gradient{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.big-banner-picture div{
+    background: url(../img/big-banner/big-picture-outside.png);
+    width: 512px;
+    height: 514px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.big-banner-picture div img{
+    width: 334px;
+    height: 459px;
+}
+.big-banner-btns{
+    position: absolute;
+    bottom: 85px;
+    display: flex;
+    align-items: center;
+    width: 420px;
+    justify-content: space-between;
+}
+.big-banner-btns a div img{
+    margin-right: 10px;
+}
+.white-btn{
+    color: #545F7E;
+    padding: 14px 30px;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #F5FAFE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    box-shadow: 0px 3px 9px #0052E01A;
+    border: 1px solid #EEF5FF;
+    text-transform: uppercase;
+    font: normal normal 500 16px/19px "Montserrat Medium";
+}
+.watch-btn{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font: normal normal 600 16px/19px "Montserrat SemiBold";
+}
+
+/*------------------------------ VIDEO GALLERY ------------------------------*/
+.video-gallery{
+    width: 100%;
+    background: transparent linear-gradient(180deg, rgba(245, 250, 254, 1) 0%, rgba(229, 237, 255, 1) 100%) 0% 0% no-repeat padding-box;
+}
+.video-gallery-contain{
+    padding: 45px 0px 60px;
+}
+.video-gallery-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-gallery-description p{
+    width: 711px;
+    text-align: center;
+}
+.video-gallery-description div{
+    width: 120px;
+    margin: 15px;
+    height: 3px;
+    background: #6C63FF;
+}
+.video-gallery-description h3{
+    color: #363F5A;
+}
+.video-gallery-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 45px;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+    padding: 60px 120px;
+}
+.video-block{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0047CE33;
+    border-radius: 10px;
+    width: 345px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s ease-in-out;
+}
+.video-block .img-side{
+    position: relative;
+}
+.video-block .img-side .play-icon{position: absolute;left: 14px;bottom: 10px;}
+.video-block .img-side .video-more-info{
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #064AE541;
+    font: normal normal bold 14px/35px "Montserrat Bold";
+    position: absolute;
+    left: 60px;
+    bottom: 5px;
+    display: none;
+}
+.video-block h3{
+    font: normal normal bold 16px/35px "Montserrat Bold";
+    text-align: center;
+    color: #363F5A;
+}
+.video-block .button-side{
+    background: transparent linear-gradient(180deg, #5690FF 0%, #387DFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #387DFF80;
+    border-radius: 20px;
+    width: 116px;
+    padding: 11px 38px 11px 20px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.video-block .button-side p{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-right: 13px;
+}
+.video-block:hover{
+    transform: translateY(-12px);
+}
+.video-block:hover .video-more-info{
+    display: block;
+}
+
+/*------------------------------ TUTORIAL ------------------------------*/
+.tutorial{
+    background-color: #FFFFFF;
+}
+.tutorial-contain{
+    padding: 75px 0px 120px;
+}
+.tutorial-contain>h3{
+    color: #363F5A;
+    margin: 0 auto;
+    text-align: center;
+    font: normal normal bold 36px/46px "Montserrat Bold";
+    width: 710px;
+}
+.step{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.step-1-title{
+    color: #766DE8;
+}
+.tutorial-description h3{
+    font: normal normal bold 36px/46px "Montserrat Bold";
+    color: #363F5A;
+    width: 426px;
+}
+.tutorial-description h5{
+    font: normal normal bold 18px/46px "Montserrat Bold";
+    letter-spacing: 0px;
+}
+.tutorial-description p{
+    font: normal normal normal 14px/22px "Montserrat Medium";
+    width: 426px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.tutorial-img-1{
+    height: 305px;
+    position: relative;
+}
+.tutorial-img-2{
+    height: 341px;
+    position: relative;
+}
+.pic-pulse-center{
+    position: absolute;
+    bottom: -2px;
+    left: 54%;
+    width: 243px;
+    transform: translateX(-50%);
+    animation:pulse-animation 2s infinite;
+    border-radius: 25px;
+}
+.pic-pulse-center-2{
+    position: absolute;
+    bottom: 15px;
+    left: 53%;
+    width: 205px;
+    transform: translateX(-50%);
+    animation:pulse-animation 2s infinite;
+    border-radius: 25px;
+}
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgb(166, 194, 255);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(166, 194, 255, 0);
+    }
+  }
+
+.pic-pulse-left{
+    position: absolute;
+    border-radius: 10px;
+    width: 92px;
+    top: 50%;
+    left: 18px;
+    animation:pulse-animation 2s infinite;
+}
+.step-1{
+    margin-top: 66px;
+}
+.step-1-text{
+    border-left: 3px solid #766DE8;
+}
+.step-2{
+    flex-direction: row-reverse;
+    margin-top: 90px;
+}
+.step-2-title{
+    color: #F27B6A;
+}
+.step-2-text{
+    border-left: 3px solid #F27B6A;
+}
+.step-3{
+    margin-top: 110px;
+}
+.step-3-text{
+    border-left: 3px solid #F7CF06;
+}
+.step-3-title{
+    color: #F7CF06;
+}
+.tutorial-img-3{
+    height: 293px;
+    position: relative;
+}
+.pic-pulse-center-3{
+    position: absolute;
+    width: 205px;
+    bottom: -2px;
+    left: 56%;
+    border-radius: 50px;
+    transform: translateX(-50%);
+    animation:pulse-animation 2s infinite;
+}
+.pic-pulse-right{
+    position: absolute;
+    border-radius: 10px;
+    width: 92px;
+    top: 33%;
+    right: -30px;
+    animation:pulse-animation 2s infinite;
+}
+.tutorial-contain>h6{
+    display: none;
+    font: normal normal bold 24px/32px "Montserrat Bold";
+    text-align: center;
+    color: #363F5A;
+}
+
+/*------------------------------ CREATE ------------------------------*/
+.create{
+    width: 100%;
+    background: url("../img/create/create-bg.svg") no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.create-contain{
+    display: flex;
+}
+.create img{
+    height: 235px;
+}
+.right-decoration{
+    margin-top: 33px;
+}
+.create-contain{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create-contain h3{
+    font: normal normal bold 26px/36px "Montserrat Bold";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 522px;
+}
+.create-contain a{
+    width: 230px;
+    font: normal normal 500 17px/22px "Montserrat Medium";
+    margin-top: 45px;
+}
+
+/*------------------------------ STEPS ------------------------------*/
+.steps{
+    background: #F5FAFE;
+}
+.steps-contenct{
+    padding: 75px 75px 90px;
+    position: relative;
+}
+.steps-contenct h6{
+    display: none;
+    font: normal normal bold 26px/34px "Montserrat Bold";
+    text-align: center;
+    color: #363F5A;
+}
+.steps-contenct h3{
+    margin: 0 auto;
+    text-align: center;
+    width: 585px;
+    font: normal normal bold 36px/46px "Montserrat Bold";
+}
+.steps-blocks{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.steps-blocks div{
+    z-index: 1;
+    box-shadow: 0px 3px 6px #0037A033;
+    border-radius: 10px;
+    position: relative;
+    width: 375px;
+    background: #FFFFFF;
+    padding: 45px 30px;
+}
+.steps-blocks div img{
+    position: absolute;
+    top: -40px;
+    left: 25px;
+}
+.steps-blocks div h5{
+    font: normal normal 600 20px/22px "Montserrat SemiBold";
+    color: #363F5A;
+}
+.steps-blocks div p{
+    font: normal normal normal 16px/22px "Montserrat Medium";
+    margin-top: 15px;
+}
+.atomic-energy{
+    position: absolute;
+    top: 185px;
+    left: 5px;
+}
+.math{
+    position: absolute;
+    bottom: 220px;
+    right: 11px;
+}
+.venn-diagram{
+    top: 60px;
+    right: 125px;
+    position: absolute;
+}
+.function{
+    position: absolute;
+    bottom: 14px;
+    left: 280px;
+}
+
+/*------------------------------ OPINIONS ------------------------------*/
+.opinion{
+    display: flex;
+    background: #FFFFFF;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+}
+.opinion-contenct{
+    padding: 60px 0px 30px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.opinion-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.left-group{
+    width: 335px;
+    height: 148px;
+    margin-right: 5px;
+    margin-top: 18px;
+}
+.right-group{
+    width: 330px;
+    height: 167px;
+    margin-top: 18px;
+}
+.opinion-img .center-group div{
+    width: 265px;
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+}
+.light-img{
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+.year-img{
+    width: 147px;
+    height: 178px;
+}
+.center-group{
+    display: flex;
+}
+.opinion-contenct h3{
+    margin: 0 auto;
+    text-align: center;
+    width: 510px;
+    font: normal normal bold 36px/46px "Montserrat Bold";
+}
+.opinion-contenct>img{
+    margin-top: 8px;
+}
+.opinion-text{
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+}
+.opinion-text p{
+    width: 614px;
+    font: normal normal normal 19px/26px "Montserrat Medium";
+    color: #363F5A;
+}
+.opinion-text img{
+    margin: 30px 0px 20px;
+}
+.opinion-text h3{
+    font: normal normal bold 16px/38px "Montserrat Bold";
+    color: #363F5A;
+    line-height: 18px;
+}
+.opinion-text h6{
+    font: normal normal normal 14px/38px "Montserrat Medium";
+    color: #363F5A;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.opinion-text-bloks{
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+}
+.opinion-right-decoration{position: absolute;right: 0;bottom: 236px;}
+.opinion-left-decoration{
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
+.slick-track{
+    display: flex;
+}
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px
+}
+.slick-dots li{
+    list-style: none;
+    margin: 0px 6px;
+}
+.slick-dots button{
+    font-size: 0;
+    height: 6px;
+    width: 6px;
+    background-color:#9bbeff;
+    border-radius: 50%;
+    border: none;
+}
+.slick-dots .slick-active button{
+    background-color:#387DFF;
+}
+.slick-dots button:focus{
+    outline: none;
+}
+.slick-slide:focus{
+    outline: none;
+}
+
+/*------------------------------ COMMUNITY ------------------------------*/
+.community{
+    background: #6291F7;
+    display: flex;
+}
+.community-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.community-content>div{
+    margin-right: 73px;
+}
+.community-content>div>h3{
+    color: #FFFFFF;
+    font: normal normal bold 36px/46px "Montserrat Bold";
+}
+.community-content>div>p{
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+/*---------------------------------- BLOG ----------------------------------*/
+.blog{
+    background: #FFFFFF;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.blog-contain{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px 75px;
+    width: 100%;
+}
+.blog-contain h3{
+    color: #363F5A;
+    font: normal normal 600 36px/48px "Montserrat SemiBold";
+    width: 718px;
+    text-align: center;
+    margin-bottom: 62px;
+}
+.blog-contain a div{
+    width: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0047CE33;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.blog-contain a div p{
+    margin: 20px 20px 0px;
+    text-align: center;
+    font: normal normal bold 16px/24px "Montserrat Bold";
+    color: #363F5A;
+}
+.blue-btn{
+    margin-top: 90px;
+    background: transparent linear-gradient(180deg, #5690FF 0%, #387DFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #387DFF80;
+    border-radius: 25px;
+    font: normal normal 500 18px/22px "Montserrat Medium";
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 14px 30px;
+}
+.video-left-decoration{
+    position: absolute;
+    left: 427px;
+    top: 323px;
+}
+.video-right-decoration{
+    position: absolute;
+    top: 287px;
+    right: 428px;
+}
+.blog-left-decoration{
+    margin-top: 470px;
+}
+.blog-right-decoration{
+    margin-top: 121px;
+}
+.blog-contain>h6{
+    display: none;
+    font: normal normal 600 23px/36px "Montserrat SemiBold";
+    letter-spacing: 0px;
+    color: #363F5A;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.mobile-tutorial-title{
+    display: none;
+    font: normal normal bold 16px/24px "Montserrat Bold";
+    margin: 20px 13px 0px;
+    text-align: center;
+    color: #363F5A;
+}
+
+/*---------------------------------- FOOTER ----------------------------------*/
+footer{
+    width: 100%;
+    height: 298px;
+    background: #6291F7;
+}
